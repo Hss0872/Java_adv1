@@ -13,7 +13,6 @@ public class VolatileFlagMain {
         t.start();
 
         sleep(1000);
-        sleep(1000);
         log("runFlag false 변경 시도");
         task.runFlag = false;
         log("runFlag = " + task.runFlag);
