@@ -7,6 +7,5 @@ public abstract class MySleep {
             Thread.sleep(ms);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
-    }
+        }    }
 }
