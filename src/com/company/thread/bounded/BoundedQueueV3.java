@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 import static com.company.util.MyLogger.log;
-import static com.company.util.MySleep.sleep;
 
 public class BoundedQueueV3 implements BoundedQueue {
 
